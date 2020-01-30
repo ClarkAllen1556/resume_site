@@ -1,1 +1,1 @@
-web: http-webserver
+web: heroku-php-apache2
