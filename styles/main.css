@@ -5937,8 +5937,8 @@ Source Sans Pro from Google
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#f1632a), color-stop(100%, #0032a0));
-    background: linear-gradient(#f1632a 0%, #0032a0 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1632a), color-stop(100%, #0032a047));
+    background: linear-gradient(#f1632a 0%, #0032a047 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -7617,7 +7617,7 @@ Source Sans Pro from Google
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
   background: -webkit-gradient(linear, left bottom, left top, from(#0032a0), to(rgba(44, 44, 44, 0.2)));
-  background: linear-gradient(0deg, #0032a0, rgba(44, 44, 44, 0.2));
+  background: linear-gradient(0deg, #0032a047, rgba(44, 44, 44, 0.2));
   /* Standard syntax */
 }
 
