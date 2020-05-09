@@ -25,6 +25,8 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -3256,7 +3258,7 @@ p.description {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: 'Source Sans Pro', 'Kalam';
+  font-family: 'Zilla Slab', serif, 'Source Sans Pro', 'Kalam';
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
