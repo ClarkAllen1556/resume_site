@@ -3,7 +3,8 @@ export const JP_TRANSLATION = {
     title: 'The Allen C.',
     about: '情報',
     home: 'ホーム',
-    contact: '連絡'
+    contact: '連絡',
+    lang: '地方'
   },
   view: {
     contact: {

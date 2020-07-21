@@ -1,6 +1,6 @@
 <template>
-  <b-container id="app" fluid>
-    <Navbar />
+  <b-container id='app' fluid>
+    <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
     <b-row>
       <b-col>
         <router-view />
@@ -10,13 +10,26 @@
 </template>
 
 <script>
-  import Navbar from "@/components/Navbar.vue";
+  import Navbar from '@/components/Navbar.vue'
+  import { useStore } from './store/index'
+  import { watch, computed, reactive, ref } from '@vue/composition-api'
 
   export default {
     components: {
       Navbar
+    },
+    data() {
+      return {
+        locale: "EN"
+      }
+    },
+    methods: {
+      changeLang: async function(lang) {
+        this.$i18n.locale = lang
+        useStore().dispatch('changeLocale', lang)
+      }
     }
-  };
+  }
 </script>
 
 <style lang="scss">

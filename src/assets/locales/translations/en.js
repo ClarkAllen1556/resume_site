@@ -3,7 +3,8 @@ export const EN_TRANSLATION = {
     title: 'The Allen C.',
     about: 'About me',
     home: 'Home',
-    contact: 'Contact me'
+    contact: 'Contact me',
+    locale: 'Language'
   },
   view: {
     contact: {

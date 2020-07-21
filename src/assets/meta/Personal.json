@@ -1,0 +1,12 @@
+{
+  "age": 26,
+  "name": {
+    "en": "Allen Clark",
+    "jp": "クラーク・アレン"
+  },
+  "email": "allenclark@u.boisestate.edu",
+  "location": {
+    "en": "Tokyo",
+    "jp": "東京"
+  }
+}

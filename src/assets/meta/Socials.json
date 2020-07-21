@@ -1,0 +1,10 @@
+{
+  "li": {
+    "name": "Linkedin",
+    "tag": "Follow me on Linkedin"
+  },
+  "gh": {
+    "name": "Github",
+    "tag": "Fork me on Github"
+  }
+}
