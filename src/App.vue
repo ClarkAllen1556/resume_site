@@ -1,16 +1,18 @@
 <template>
   <b-container id='app' fluid>
     <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
-    <b-row>
+    <b-row no-gutters="">
       <b-col>
         <Hero />
       </b-col>
     </b-row>
-    <b-row>
+    <div class="router-dump">
+      <b-row >
       <b-col>
         <router-view />
       </b-col>
     </b-row>
+    </div>
   </b-container>
 </template>
 
@@ -24,7 +26,7 @@
   export default {
     components: {
       Navbar,
-      Hero
+      Hero,
     },
     data() {
       return {
@@ -41,6 +43,11 @@
 </script>
 
 <style lang="scss">
+  .router-dump {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

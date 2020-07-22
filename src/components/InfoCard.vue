@@ -1,24 +1,22 @@
 <template>
   <div>
-    <b-row>
-      <b-col>
-        <b-card :title="title">
-          <b-card-body> {{ content }} </b-card-body>
-        </b-card>
-      </b-col>
-    </b-row>
+    <b-col>
+      <b-card class="info-card" :title="title" border-variant="secondary" align="left">
+        <b-card-body>
+          <slot></slot>
+        </b-card-body>
+      </b-card>
+    </b-col>
   </div>
 </template>
 
 <script>
   export default {
     name: "InfoCard",
-    props: [
-      "title",
-      "content"
-    ]
+    props: ["title", "content"]
   };
 </script>
 
-<style>
+<style lang="scss">
+
 </style>

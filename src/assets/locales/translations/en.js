@@ -1,10 +1,18 @@
+const tags = require('../../meta/Personal.json').tag.EN
+const pitch = require('../../meta/Personal.json').pitch.EN
+
 export const EN_TRANSLATION = {
   label: {
     title: 'The Allen C.',
     about: 'About me',
     home: 'Home',
     contact: 'Contact me',
-    locale: 'Lang.'
+    locale: 'Lang.',
+    send: 'Send',
+    email: 'Email',
+    subject: 'Subject',
+    name: 'Name',
+    message: 'Your message...'
   },
   view: {
     contact: {
@@ -26,6 +34,8 @@ export const EN_TRANSLATION = {
       gh: "Fork me on Github!"
     },
     name: "Allen D. Clark",
-    location: "Tokyo"
+    location: "Tokyo",
+    tags: tags,
+    pitch: pitch
   }
 }

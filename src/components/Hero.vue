@@ -1,10 +1,10 @@
 <template>
-  <div id="hero" class="page-header">
+  <div id="hero">
     <b-row>
       <b-col>
-        <b-jumbotron class="rounded-0">
+        <b-jumbotron class="rounded-bottom">
           <Avatar />
-          <p>{{ $t('view.home.desc') }}</p>
+          <p v-for="(tag, i) in $t(`meta.tags`)" :key="`tag${i}`">{{ tag }}</p>
           <SocialList />
         </b-jumbotron>
       </b-col>

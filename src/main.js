@@ -3,26 +3,25 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+
 import VueCompositionAPI from '@vue/composition-api'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import VueI18n from 'vue-i18n'
+import VueLogger from 'vuejs-logger'
+import VueMarkdown from 'vue-markdown'
+import Icon from 'vue-awesome/components/Icon'
+import 'vue-awesome/icons'
+
 import { EN_TRANSLATION } from './assets/locales/translations/en'
 import { JP_TRANSLATION } from './assets/locales/translations/jp'
-import VueLogger from 'vuejs-logger'
 import './styles/custom.scss'
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-// import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-// library.add(faFontAwesome)
-// Vue.component('font-awesome-icon', FontAwesomeIcon)
-import 'vue-awesome/icons'
-import Icon from 'vue-awesome/components/Icon'
+Vue.component('vue-markdown', VueMarkdown)
 Vue.component('v-icon', Icon)
 
 Vue.config.productionTip = false
 
+Vue.use(VueMarkdown)
 Vue.use(VueI18n)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
