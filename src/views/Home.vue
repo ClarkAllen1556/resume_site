@@ -2,29 +2,20 @@
   <div class="home">
     <b-row>
       <b-col>
-        <Avatar />
-        <p>{{ $t('view.home.desc') }}</p>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col>
-        <SocialList />
+        <InfoCard :title="$t('view.home.title')" :content="$t('view.home.desc')"/>
       </b-col>
     </b-row>
   </div>
 </template>
 
 <script>
-  import Avatar from "@/components/Avatar.vue";
-  import SocialList from "@/components/SocialList.vue";
+  import InfoCard from "@/components/InfoCard.vue";
 
   export default {
     name: "Home",
     components: {
-      Avatar,
-      SocialList
+      InfoCard
     },
-    setup() {
-    }
+    setup() {}
   };
 </script>

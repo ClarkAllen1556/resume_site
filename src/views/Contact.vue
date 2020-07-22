@@ -2,15 +2,20 @@
   <div>
     <b-row>
       <b-col>
-        <p>{{ $t('view.contact.desc') }}</p>
+        <InfoCard :title="$t('view.contact.title')" :content="$t('view.contact.desc')"/>
       </b-col>
     </b-row>
   </div>
 </template>
 
 <script>
-  export default {};
-</script>
+  import InfoCard from "@/components/InfoCard.vue";
 
-<style>
-</style>
+  export default {
+    name: "Contact",
+    components: {
+      InfoCard
+    },
+    setup() {}
+  };
+</script>

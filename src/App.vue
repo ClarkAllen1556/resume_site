@@ -1,7 +1,11 @@
 <template>
   <b-container id='app' fluid>
     <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
-    <!-- <font-awesome-icon icon="user-secret" /> -->
+    <b-row>
+      <b-col>
+        <Hero />
+      </b-col>
+    </b-row>
     <b-row>
       <b-col>
         <router-view />
@@ -12,12 +16,15 @@
 
 <script>
   import Navbar from '@/components/Navbar.vue'
+  import Hero from "@/components/Hero.vue";
+
   import { useStore } from './store/index'
   import { watch, computed, reactive, ref } from '@vue/composition-api'
 
   export default {
     components: {
-      Navbar
+      Navbar,
+      Hero
     },
     data() {
       return {
