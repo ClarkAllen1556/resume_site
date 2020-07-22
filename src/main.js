@@ -11,12 +11,15 @@ import { JP_TRANSLATION } from './assets/locales/translations/jp'
 import VueLogger from 'vuejs-logger'
 import './styles/custom.scss'
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { library } from '@fortawesome/free-solid-svg-icons'
-import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-
-library.add(faFontAwesome)
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+// import { faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+// library.add(faFontAwesome)
+// Vue.component('font-awesome-icon', FontAwesomeIcon)
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
+Vue.component('v-icon', Icon)
 
 Vue.config.productionTip = false
 

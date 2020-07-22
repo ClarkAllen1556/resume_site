@@ -4,7 +4,7 @@ export const JP_TRANSLATION = {
     about: '情報',
     home: 'ホーム',
     contact: '連絡',
-    lang: '地方'
+    locale: '地方'
   },
   view: {
     contact: {
@@ -19,5 +19,13 @@ export const JP_TRANSLATION = {
       title: "ホーム",
       desc: "ここへようこそ！"
     }
+  },
+  meta: {
+    link: {
+      li: "Linkedinで私に追加しましょうか？",
+      gh: "Githubで私にフォークしましょうか？"
+    },
+    name: "クラーク・アレン",
+    location: "東京"
   }
 }

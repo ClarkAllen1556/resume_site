@@ -7,9 +7,9 @@
           <b-nav-item href="#/about">{{ $t('label.about' )}}</b-nav-item>
           <b-nav-item href="#/contact">{{ $t('label.contact' )}}</b-nav-item>
 
-          <b-nav-dropdown :text="$t('label.lang')" right>
+          <b-nav-dropdown :text="$t('label.locale')" right>
             <b-dropdown-item-button
-              v-for="(lang,i) in store.getters.langs"
+              v-for="(lang, i) in store.getters.langs"
               :key="`Lang${i}`"
               @click="$emit(`changeLang${lang}`)"
             >{{ lang }}</b-dropdown-item-button>

@@ -8,7 +8,7 @@
     </b-row>
     <b-row>
       <b-col>
-        <ItemList />
+        <SocialList />
       </b-col>
     </b-row>
   </div>
@@ -16,13 +16,13 @@
 
 <script>
   import Avatar from "@/components/Avatar.vue";
-  import ItemList from "@/components/ItemList.vue";
+  import SocialList from "@/components/SocialList.vue";
 
   export default {
     name: "Home",
     components: {
       Avatar,
-      ItemList
+      SocialList
     },
     setup() {
     }

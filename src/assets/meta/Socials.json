@@ -1,10 +1,16 @@
 {
   "li": {
     "name": "Linkedin",
-    "tag": "Follow me on Linkedin"
+    "short": "li",
+    "tag": "Follow me on Linkedin",
+    "icon": "brands/linkedin",
+    "link": "https://www.linkedin.com/in/allenclark1556/"
   },
   "gh": {
     "name": "Github",
-    "tag": "Fork me on Github"
+    "short": "gh",
+    "tag": "Fork me on Github",
+    "icon": "brands/github-square",
+    "link": "https://github.com/ClarkAllen1556"
   }
 }

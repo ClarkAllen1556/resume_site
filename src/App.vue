@@ -1,6 +1,7 @@
 <template>
   <b-container id='app' fluid>
     <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
+    <!-- <font-awesome-icon icon="user-secret" /> -->
     <b-row>
       <b-col>
         <router-view />

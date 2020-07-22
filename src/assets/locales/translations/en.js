@@ -4,7 +4,7 @@ export const EN_TRANSLATION = {
     about: 'About me',
     home: 'Home',
     contact: 'Contact me',
-    locale: 'Language'
+    locale: 'Lang.'
   },
   view: {
     contact: {
@@ -19,5 +19,13 @@ export const EN_TRANSLATION = {
       title: "Home",
       desc: "Welcome to my page!"
     }
+  },
+  meta: {
+    link: {
+      li: "Follow me on Linkedin!",
+      gh: "Fork me on Github!"
+    },
+    name: "Allen D. Clark",
+    location: "Tokyo"
   }
 }
