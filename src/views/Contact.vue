@@ -9,6 +9,7 @@
       <b-col sm="4">
         <InfoCard :title="$t('view.about.title')" sm>
           <ContactInfo />
+          <Map />
         </InfoCard>
       </b-col>
     </b-row>
@@ -18,7 +19,7 @@
 <script>
   import InfoCard from "@/components/InfoCard.vue"
   import FormSpree from "@/components/FormSpree.vue"
-
+  import Map from "@/components/Map.vue"
   import ContactInfo from "../assets/meta/ContactInfo.md"
 
   export default {
@@ -26,7 +27,8 @@
     components: {
       InfoCard,
       ContactInfo,
-      FormSpree
+      FormSpree,
+      Map
     },
     setup() {}
   };

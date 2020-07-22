@@ -18,5 +18,7 @@
 </script>
 
 <style lang="scss">
-
+.info-card {
+  margin: .5em
+}
 </style>
