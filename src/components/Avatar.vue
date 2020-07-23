@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="avatar">
     <b-img-lazy v-bind="mainProps" rounded="circle" alt="Avatar" :src="require('../assets/allen_head_1.jpeg')" />
   </div>
 </template>
@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style>
-
+  #avatar {
+    margin: .5em;
+  }
 </style>

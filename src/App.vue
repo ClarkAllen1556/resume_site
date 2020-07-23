@@ -1,27 +1,33 @@
 <template>
-  <b-container id='app' fluid>
-    <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
-    <b-row no-gutters="">
+  <b-container id="app" fluid>
+    <b-row>
       <b-col>
-        <Hero />
+        <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
       </b-col>
     </b-row>
+    <div class="hero-dump">
+      <b-row>
+        <b-col>
+          <Hero :currentPage="title" />
+        </b-col>
+      </b-row>
+    </div>
     <div class="router-dump">
-      <b-row >
-      <b-col>
-        <router-view />
-      </b-col>
-    </b-row>
+      <b-row>
+        <b-col>
+          <router-view />
+        </b-col>
+      </b-row>
     </div>
   </b-container>
 </template>
 
 <script>
-  import Navbar from '@/components/Navbar.vue'
-  import Hero from "@/components/Hero.vue";
+  import Navbar from "@/components/Navbar.vue"
+  import Hero from "@/components/Hero.vue"
 
-  import { useStore } from './store/index'
-  import { watch, computed, reactive, ref } from '@vue/composition-api'
+  import { useStore } from "./store/index"
+  import { watch, computed, reactive, ref } from "@vue/composition-api"
 
   export default {
     components: {
@@ -30,22 +36,37 @@
     },
     data() {
       return {
-        locale: "EN"
-      }
+        locale: "EN",
+        title: ""
+      };
     },
     methods: {
-      changeLang: async function(lang) {
+      changeLang: async function (lang) {
         this.$i18n.locale = lang
-        useStore().dispatch('changeLocale', lang)
-      }
-    }
-  }
+        useStore().dispatch("changeLocale", lang)
+      },
+    },
+    computed: {
+      updateCurrentPage: function () {
+        document.title = this.$route.name
+        this.title = this.$route.name
+        return title
+      },
+    },
+    created() {
+      document.title = this.$route.name
+      this.title = this.$route.name
+    },
+  };
 </script>
 
 <style lang="scss">
   .router-dump {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin: 0.1em;
+  }
+
+  .hero-dump {
+    margin: 0.1em;
   }
 
   #app {

@@ -4,9 +4,9 @@ const pitch = require('../../meta/Personal.json').pitch.EN
 export const EN_TRANSLATION = {
   label: {
     title: 'The Allen C.',
-    about: 'About me',
+    about: 'About',
     home: 'Home',
-    contact: 'Contact me',
+    contact: 'Contact',
     locale: 'Lang.',
     send: 'Send',
     email: 'Email',

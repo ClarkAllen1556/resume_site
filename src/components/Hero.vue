@@ -3,6 +3,7 @@
     <b-row>
       <b-col>
         <b-jumbotron class="rounded-bottom">
+          <h1> {{ pageTitle }} </h1>
           <Avatar />
           <b-card class="hero-text">
             <b-card-body>
@@ -21,18 +22,32 @@
   import SocialList from "@/components/SocialList.vue";
 
   export default {
-    name: "Home",
+    name: "Hero",
     components: {
       Avatar,
       SocialList
+    },
+    props: [
+      "currentPage"
+    ],
+    data() {
+      return {
+        pageTitle: ""
+      }
+    },
+    computed: {
+      setCurrentTitle() {
+        this.pageTitle = this.$props.currentPage
+      }
     }
   };
 </script>
 
 <style lang="scss">
   .hero-text {
-    opacity: .5;
+    opacity: .75;
   }
+
   .jumbotron {
     background-image: linear-gradient(0deg, #0032a047, rgba(44, 44, 44, 0.2)), url('../assets/bg_kyushu.jpg');
     background-attachment: fixed;

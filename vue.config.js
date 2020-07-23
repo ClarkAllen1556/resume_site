@@ -11,5 +11,9 @@ module.exports = {
       .options({
         raw: true
       })
+      .end()
+      .use('markdown-loader')
+      .loader('markdown-loader')
+      .end()
   }
 }
