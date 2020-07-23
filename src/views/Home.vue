@@ -10,6 +10,7 @@
         <InfoCard :title="$t('view.about.title')" sm>
           <PostContent :postFilePath="'src/assets/meta/Personal.md'" />
         </InfoCard>
+      </b-col>
     </b-row>
   </div>
 </template>

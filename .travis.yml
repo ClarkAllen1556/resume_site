@@ -17,4 +17,7 @@ deploy:
   provider: surge
   login: allenclark@u.boisestate.edu
   token: $SURGE_TOKEN
+  project: ./dist
+  on:
+    branch: master
   edge: true # opt in to dpl v2
