@@ -6,10 +6,15 @@ cache: npm
 
 script: npm run build
 
+# deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  github_token: $GITHUB_TOKEN
+#  local_dir: dist
+#  on:
+#    branch: master
 deploy:
- provider: pages
- skip_cleanup: true
- github_token: $GITHUB_TOKEN
- local_dir: dist
- on:
-   branch: master
+  provider: surge
+  login: allenclark@u.boisestate.edu
+  token: $SURGE_TOKEN
+  edge: true # opt in to dpl v2
