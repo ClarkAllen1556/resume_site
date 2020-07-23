@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <b-row>
-      <b-col>
-        <b-card>
-          <b-row>
-            <InfoCard :title="$t('view.home.title')" :content="$t('view.home.desc')" />
-            <InfoCard :content="$t('view.home.desc')" />
-          </b-row>
-        </b-card>
+    <b-row v-if="false">
+      <b-col sm="8">
+        <InfoCard :title="$t('view.about.desc')">
+          <PersonalSummery />
+        </InfoCard>
       </b-col>
+      <b-col sm="4">
+        <InfoCard :title="$t('view.about.title')" sm>
+          <PostContent :postFilePath="'src/assets/meta/Personal.md'" />
+        </InfoCard>
     </b-row>
   </div>
 </template>
