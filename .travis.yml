@@ -18,6 +18,7 @@ deploy:
   login: allenclark@u.boisestate.edu
   token: $SURGE_TOKEN
   project: ./dist
+  domain: theallenc.surge.sh
   on:
     branch: master
   edge: true # opt in to dpl v2
