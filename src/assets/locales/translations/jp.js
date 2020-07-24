@@ -3,7 +3,7 @@ const pitch = require('../../meta/Personal.json').pitch.JP
 
 export const JP_TRANSLATION = {
   label: {
-    title: 'The Allen C.',
+    title: 'ザ・アレン・シ',
     exp: '経験',
     home: 'ホーム',
     contact: '連絡',
