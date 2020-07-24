@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <b-row v-if="false">
+  <div class="about">
+    <b-row>
       <b-col sm="8">
         <InfoCard :title="$t('view.about.desc')">
           <PersonalSummery />
@@ -8,6 +8,7 @@
       </b-col>
       <b-col sm="4">
         <InfoCard :title="$t('view.about.title')" sm>
+          <Personal />
         </InfoCard>
       </b-col>
     </b-row>
@@ -16,12 +17,17 @@
 
 <script>
   import InfoCard from "@/components/InfoCard.vue";
+  import Personal from "../assets/meta/Personal.md";
+  import PersonalSummery from "../assets/meta/PersonalSummery.md";
 
   export default {
-    name: "Home",
+    name: "About",
     components: {
-      InfoCard
+      InfoCard,
+      Personal,
+      PersonalSummery
     },
     setup() {}
   };
 </script>
+

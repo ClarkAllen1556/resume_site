@@ -21,7 +21,7 @@
   import PersonalSummery from "../assets/meta/PersonalSummery.md";
 
   export default {
-    name: "About",
+    name: "Experience",
     components: {
       InfoCard,
       Personal,

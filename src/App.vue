@@ -15,7 +15,7 @@
     <div class="router-dump">
       <b-row>
         <b-col>
-          <router-view />
+          <router-view/>
         </b-col>
       </b-row>
     </div>

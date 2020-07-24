@@ -1,7 +1,9 @@
 <template>
   <div>
     <b-navbar sticky variant="info" class="rounded-bottom">
-      <b-navbar-brand href="#/">{{ $t('label.title') }}</b-navbar-brand>
+      <b-navbar-brand href="#/" >
+        <img class="d-inline-block align-middle" :src="require('../assets/favicon.png')" />
+        {{ $t('label.title') }}</b-navbar-brand>
       <b-collapse id="collapse-nav" is-nav>
         <b-navbar-nav class="ml-auto">
 
