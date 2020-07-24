@@ -5,13 +5,6 @@
         <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
       </b-col>
     </b-row>
-    <div class="hero-dump">
-      <b-row>
-        <b-col>
-          <Hero :currentPage="title" />
-        </b-col>
-      </b-row>
-    </div>
     <div class="router-dump">
       <b-row>
         <b-col>
@@ -24,7 +17,6 @@
 
 <script>
   import Navbar from "@/components/Navbar.vue"
-  import Hero from "@/components/Hero.vue"
 
   import { useStore } from "./store/index"
   import { watch, computed, reactive, ref } from "@vue/composition-api"
@@ -32,7 +24,6 @@
   export default {
     components: {
       Navbar,
-      Hero,
     },
     data() {
       return {
@@ -62,10 +53,6 @@
 
 <style lang="scss">
   .router-dump {
-    margin: 0.1em;
-  }
-
-  .hero-dump {
     margin: 0.1em;
   }
 
