@@ -7,7 +7,7 @@
       <b-collapse id="collapse-nav" is-nav>
         <b-navbar-nav class="ml-auto">
 
-          <b-nav-item href="#/about">{{ $t('label.about' )}}</b-nav-item>
+          <b-nav-item href="#/about">{{ $t('label.exp' )}}</b-nav-item>
           <b-nav-item href="#/contact">{{ $t('label.contact' )}}</b-nav-item>
 
           <b-nav-dropdown :text="$t('label.locale')" right>

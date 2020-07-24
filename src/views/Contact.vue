@@ -7,7 +7,7 @@
         </InfoCard>
       </b-col>
       <b-col sm="4">
-        <InfoCard :title="$t('view.about.title')" sm>
+        <InfoCard :title="$t('view.about.desc')" sm>
           <ContactInfo />
           <Map />
         </InfoCard>

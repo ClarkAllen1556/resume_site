@@ -2,12 +2,12 @@
   <div class="about">
     <b-row>
       <b-col sm="8">
-        <InfoCard :title="$t('view.about.desc')">
+        <InfoCard :title="$t('view.exp.desc')">
           <PersonalSummery />
         </InfoCard>
       </b-col>
       <b-col sm="4">
-        <InfoCard :title="$t('view.about.title')" sm>
+        <InfoCard :title="$t('view.exp.title')" sm>
           <Personal />
         </InfoCard>
       </b-col>

@@ -4,7 +4,7 @@ const pitch = require('../../meta/Personal.json').pitch.EN
 export const EN_TRANSLATION = {
   label: {
     title: 'The Allen C.',
-    about: 'About',
+    exp: 'Experience',
     home: 'Home',
     contact: 'Contact',
     locale: 'Lang.',
@@ -20,8 +20,11 @@ export const EN_TRANSLATION = {
       desc: "Would you like to contact me?"
     },
     about: {
-      title: "About me",
       desc: "More about me..."
+    },
+    exp: {
+      title: "My experience",
+      desc: "More about my experiences..."
     },
     home: {
       title: "Home",
