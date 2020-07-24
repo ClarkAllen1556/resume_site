@@ -2,7 +2,7 @@
   <div>
     <b-navbar sticky variant="info" class="rounded-bottom">
       <b-navbar-brand href="#/" >
-        <img class="d-inline-block align-middle" :src="require('../assets/favicon.png')" />
+        <img class="d-inline-block align-middle" :src="require('../assets/logo.png')" style="height: 40px; width: 40px;"/>
         {{ $t('label.title') }}</b-navbar-brand>
       <b-collapse id="collapse-nav" is-nav>
         <b-navbar-nav class="ml-auto">
