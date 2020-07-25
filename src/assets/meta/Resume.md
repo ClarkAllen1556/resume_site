@@ -39,7 +39,7 @@ Student IT Assistant at Boise State University Facilities Operations and Mainten
 ### Hosei University, Study Abroad
 
 * Fall 2017 - Summer 2018
-* Ichigaya-ku, Tokyo, Japan
+* Ichigaya, Tokyo, Japan
 
 Studied Japanese language and Cultural Studies.
 
