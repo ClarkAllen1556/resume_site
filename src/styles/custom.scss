@@ -12,13 +12,13 @@ $blue: #2aa198;
 
 body {
   font-family: 'Zilla Slab', serif;
-  font-size: 16px;
+  font-size: 1em;
   background-color: $background;
 }
 
 .fa-icon {
   width: auto;
-  height: 1.5em;
+  height: 1em;
   /* You would have to include the following two lines to make this work in Safari */
 
   max-width: 100%;
