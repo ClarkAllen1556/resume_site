@@ -24,7 +24,8 @@ export const EN_TRANSLATION = {
     },
     exp: {
       title: "My experience",
-      desc: "More about my experiences..."
+      desc: "More about my experiences...",
+      skill: "Skills"
     },
     home: {
       title: "Home",
