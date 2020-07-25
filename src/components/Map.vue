@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
   .leaf-map {
-    height: 350px;
-    border-radius: .3rem;
+    height: 400px;
+    margin-top: 1em;
   }
 </style>

@@ -2,7 +2,9 @@
   <div class="experience">
     <b-row>
       <b-col>
-        <Notice />
+        <InfoCard :title="$t('view.exp.title')">
+          <Notice />
+        </InfoCard>
       </b-col>
     </b-row>
   </div>

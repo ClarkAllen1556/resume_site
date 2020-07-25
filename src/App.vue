@@ -8,7 +8,7 @@
     <div class="router-dump">
       <b-row>
         <b-col>
-          <router-view/>
+          <router-view />
         </b-col>
       </b-row>
     </div>
@@ -53,7 +53,8 @@
 
 <style lang="scss">
   .router-dump {
-    margin: 0.1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   #app {

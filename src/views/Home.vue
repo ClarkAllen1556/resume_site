@@ -7,7 +7,7 @@
         </b-col>
       </b-row>
     </div>
-    <b-row>
+    <b-row style="margin-top: 1em;">
       <b-col sm="8">
         <InfoCard :title="$t('view.home.desc')">
           <PersonalSummery />
@@ -41,7 +41,5 @@
 </script>
 
 <style lang="scss" scoped>
-  .hero-dump {
-    margin: 0.1em;
-  }
+
 </style>

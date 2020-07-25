@@ -1,26 +1,26 @@
 <template>
   <div>
     <b-row>
-      <b-col sm="8">
+      <b-col >
         <InfoCard :title="$t('view.contact.desc')">
           <FormSpree />
+          <!-- <Map /> -->
         </InfoCard>
       </b-col>
-      <b-col sm="4">
+      <!-- <b-col sm="4">
         <InfoCard :title="$t('view.about.desc')" sm>
           <ContactInfo />
-          <Map />
         </InfoCard>
-      </b-col>
+      </b-col> -->
     </b-row>
   </div>
 </template>
 
 <script>
-  import InfoCard from "@/components/InfoCard.vue"
-  import FormSpree from "@/components/FormSpree.vue"
-  import Map from "@/components/Map.vue"
-  import ContactInfo from "../assets/meta/ContactInfo.md"
+  import InfoCard from "@/components/InfoCard.vue";
+  import FormSpree from "@/components/FormSpree.vue";
+  import Map from "@/components/Map.vue";
+  import ContactInfo from "../assets/meta/ContactInfo.md";
 
   export default {
     name: "Contact",
@@ -28,8 +28,8 @@
       InfoCard,
       ContactInfo,
       FormSpree,
-      Map
+      Map,
     },
-    setup() {}
+    setup() {},
   };
 </script>

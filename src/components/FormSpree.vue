@@ -63,7 +63,14 @@
       </div>
       <div class="row">
         <div class="col">
-          <button class="btn btn-primary" type="submit"> {{ $t('label.send') }} </button>
+          <button
+            class="btn btn-primary"
+            type="submit" s
+            tyle="width: 5em;"
+            v-b-popover.hover.top="$t('label.send')"
+          >
+            <v-icon :name="'paper-plane'" />
+          </button>
         </div>
       </div>
     </form>

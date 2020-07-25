@@ -17,8 +17,8 @@
   };
 </script>
 
-<style lang="scss">
-.info-card {
-  margin: .5em
-}
+<style lang="scss" scoped>
+  .info-card {
+    box-shadow: 5px 5px 5px teal;
+  }
 </style>
