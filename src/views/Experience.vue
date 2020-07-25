@@ -3,7 +3,7 @@
     <b-row>
       <b-col>
         <InfoCard :title="$t('view.exp.title')">
-          <Notice />
+          <Resume />
         </InfoCard>
       </b-col>
     </b-row>
@@ -13,12 +13,14 @@
 <script>
   import InfoCard from "@/components/InfoCard.vue";
   import Notice from "../assets/meta/Notice.md";
+  import Resume from "../assets/meta/Resume.md";
 
   export default {
     name: "Experience",
     components: {
       InfoCard,
-      Notice
+      Notice,
+      Resume
     },
     setup() {}
   };
