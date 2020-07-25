@@ -24,7 +24,8 @@ export const JP_TRANSLATION = {
     },
     exp: {
       title: "私の経験",
-      desc: "私の経験とは"
+      desc: "私の経験とは",
+      skill: "スキル"
     },
     home: {
       title: "ホーム",

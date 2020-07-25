@@ -7,7 +7,7 @@
         </b-col>
       </b-row>
     </div>
-    <b-row style="margin-top: 1em;">
+    <b-row>
       <b-col sm="8">
         <InfoCard :title="$t('view.home.desc')">
           <PersonalSummery />

@@ -1,10 +1,20 @@
+
+$shadow: #839496;
+$background: #fdf6e3;
+$background2: #eee8d5;
+$background3: #93a1a1;
+$base01: #586e75;
+$link: #268bd2;
+$blue: #2aa198;
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap&subset=latin-ext');
 
 body {
   font-family: 'Zilla Slab', serif;
-  font-size: 16px
+  font-size: 16px;
+  background-color: $background;
 }
 
 .fa-icon {

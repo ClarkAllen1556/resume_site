@@ -44,6 +44,10 @@
 </script>
 
 <style lang="scss">
+  #hero {
+    margin-top: 1em;
+  }
+
   .hero-text {
     opacity: .75;
   }
