@@ -11,7 +11,7 @@ h2 {
 * Spring 2020 - Current
 * Tokyo, Japan
 
-Currently, I'm working for NTT Communication Engineering as a system designer. Here, I am tasked with solving unique and challenging system integration issues. I use a varraity of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
+Currently, I'm working for NTT Communication Engineering as a system designer. Here, I am tasked with solving unique and challenging system integration issues. I use a variety of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
 
 ### Software Engineering Intern - Automation/Test, Sensus Boise
 
@@ -25,7 +25,7 @@ While I was a student at Boise State University I had the opportunity to partici
 * Winter 2015 - Fall 2016
 * Boise, Idaho, United States of America
 
-During my first year at Boise State I had the pleasure of working with Boise State's Facilities Operations and Maintenance department's small independent IT division. Due do Facilities Operations' unique needs, we, FOMIT, were a separate division from campus OIT. We were tasked with managing various forms of equipment, IT hardware/software, task and inventory databases.
+During my first year at Boise State, I had the pleasure of working with Boise State's Facilities Operations and Maintenance department's small independent IT division. Due do Facilities Operations' unique needs, we, FOMIT, were a separate division from campus OIT. We were tasked with managing various forms of equipment, IT hardware/software, task, and inventory databases.
 
 ## Education
 
