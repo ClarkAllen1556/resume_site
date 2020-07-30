@@ -6,12 +6,12 @@ h2 {
 
 ## Work History
 
-### Software Engineer - System Design/Architecture, NTT Com. Engineering
+### Software Engineer - Human Resocia Co., Ltd.
 
 * Spring 2020 - Current
 * Tokyo, Japan
 
-Currently, I'm working for NTT Communication Engineering as a system designer. Here, I am tasked with solving unique and challenging system integration issues. I use a variety of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
+Currently, I'm working as a software engineer for Human Resocia in Tokyo, Japan. Here I'm contracted out at NTT Communication Engineering where I provide system design consultation. Day-to-day, I am tasked with solving unique and challenging system integration issues for the purpose of vertical scaling. I use a variety of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
 
 ### Software Engineering Intern - Automation/Test, Sensus Boise
 
