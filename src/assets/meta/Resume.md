@@ -6,12 +6,19 @@ h2 {
 
 ## Work History
 
-### Software Engineer - Human Resocia Co., Ltd.
+### Software Engineer - HTM K.K.
 
-* Spring 2020 - Current
+* Fall 2020 - Current
 * Tokyo, Japan
 
-Currently, I'm working as a software engineer for Human Resocia in Tokyo, Japan. Here I'm contracted out at NTT Communication Engineering where I provide system design consultation. Day-to-day, I am tasked with solving unique and challenging system integration issues for the purpose of vertical scaling. I use a variety of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
+Currently, I am a member of the software development at HTM K.K. Here, alongside administration and processing teams, I use my expertise in frontend development to improve our two hundred client-facing processes.
+
+### Software Engineer - Human Resocia Co., Ltd.
+
+* Spring 2020 - Fall 2020
+* Tokyo, Japan
+
+At Human Resocia, I was dispatched to NTT Communications Engineering where I worked in system design as a software engineer. There, I was tasked with solving unique and challenging system integration issues. I used a variety of tools to develop new system architectures to achieve a flexible system that will meet our specific development needs.
 
 ### Software Engineering Intern - Automation/Test, Sensus Boise
 
