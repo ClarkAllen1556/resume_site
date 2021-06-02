@@ -1,7 +1,12 @@
 <template>
   <div>
     <b-col>
-      <b-card class="info-card" :title="title" border-variant="secondary" align="left">
+      <b-card
+        class="info-card"
+        :title="title"
+        border-variant="secondary"
+        align="left"
+      >
         <b-card-body>
           <slot></slot>
         </b-card-body>

@@ -2,7 +2,10 @@
   <b-container id="app" fluid>
     <b-row>
       <b-col>
-        <Navbar @changeLangEN="changeLang('EN')" @changeLangJP="changeLang('JP')" />
+        <Navbar
+          @changeLangEN="changeLang('EN')"
+          @changeLangJP="changeLang('JP')"
+        />
       </b-col>
     </b-row>
     <div class="router-dump">
@@ -16,10 +19,7 @@
 </template>
 
 <script>
-  import Navbar from "@/components/Navbar.vue"
-
-  import { useStore } from "./store/index"
-  import { watch, computed, reactive, ref } from "@vue/composition-api"
+  import Navbar from "@/components/Navbar.vue";
 
   export default {
     components: {
@@ -28,25 +28,31 @@
     data() {
       return {
         locale: "EN",
-        title: ""
+        title: "",
       };
     },
     methods: {
       changeLang: async function (lang) {
-        this.$i18n.locale = lang
-        useStore().dispatch("changeLocale", lang)
+        this.$i18n.locale = lang;
+        this.$store.dispatch("changeLocale", lang);
       },
     },
     computed: {
       updateCurrentPage: function () {
-        document.title = this.$route.name
-        this.title = this.$route.name
-        return title
+        document.title = this.$route.name;
+        this.title = this.$route.name;
+        return title;
       },
     },
     created() {
-      document.title = this.$route.name
-      this.title = this.$route.name
+      document.title = this.$route.name;
+      this.title = this.$route.name;
+    },
+
+    mounted() {
+      if (localStorage.getItem("locale")) {
+        this.changeLang(localStorage.getItem("locale"));
+      }
     },
   };
 </script>

@@ -5,17 +5,18 @@
         <img
           class="d-inline-block align-middle"
           :src="require('../assets/logo.png')"
-          style="height: 40px; width: 40px;"
+          style="height: 40px; width: 40px"
+          loading="lazy"
         />
-        {{ $t('label.title') }}
+        {{ $t("label.title") }}
       </b-navbar-brand>
       <b-collapse id="collapse-nav" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="#/exp">
-            <strong>{{ $t('label.exp' )}}</strong>
+            <strong>{{ $t("label.exp") }}</strong>
           </b-nav-item>
           <b-nav-item href="#/contact">
-            <strong>{{ $t('label.contact' )}}</strong>
+            <strong>{{ $t("label.contact") }}</strong>
           </b-nav-item>
           <b-nav-item href="#/">
             <v-icon :name="'home'" />
@@ -26,10 +27,11 @@
               <v-icon :name="'globe-asia'" />
             </template>
             <b-dropdown-item-button
-              v-for="(lang, i) in store.getters.langs"
+              v-for="(lang, i) in langs"
               :key="`Lang${i}`"
               @click="$emit(`changeLang${lang}`)"
-            >{{ lang }}</b-dropdown-item-button>
+              >{{ lang }}</b-dropdown-item-button
+            >
           </b-nav-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -38,16 +40,11 @@
 </template>
 
 <script>
-  import { useStore } from "../store/index";
-
+  import { mapGetters } from "vuex";
   export default {
     name: "Navbar",
-    setup() {
-      const store = useStore();
-
-      return {
-        store,
-      };
+    computed: {
+      ...mapGetters(["langs"]),
     },
   };
 </script>

@@ -1,17 +1,17 @@
 <template>
   <div>
     <b-row>
-      <b-col >
+      <b-col>
         <InfoCard :title="$t('view.contact.desc')">
           <FormSpree />
-          <!-- <Map /> -->
         </InfoCard>
       </b-col>
-      <!-- <b-col sm="4">
+      <b-col sm="4">
         <InfoCard :title="$t('view.about.desc')" sm>
           <ContactInfo />
+          <Map />
         </InfoCard>
-      </b-col> -->
+      </b-col>
     </b-row>
   </div>
 </template>

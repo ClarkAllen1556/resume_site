@@ -3,7 +3,6 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import VueCompositionAPI from '@vue/composition-api'
 
 import VueI18n from 'vue-i18n'
 import VueLogger from 'vuejs-logger'
@@ -33,7 +32,6 @@ Vue.use(VueMarkdown)
 Vue.use(VueI18n)
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
-Vue.use(VueCompositionAPI)
 
 const isProduction = process.env.NODE_ENV === 'production';
 const options = {
