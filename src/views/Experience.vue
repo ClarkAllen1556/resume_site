@@ -6,7 +6,7 @@
           <Resume />
         </InfoCard>
       </b-col>
-      <b-col sm="4">
+      <b-col sm="4" v-if="false">
         <InfoCard :title="$t('view.exp.skill')">
           <b-container>
             <b-row>
