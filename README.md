@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/ClarkAllen1556/resume_site.svg?branch=master)](https://travis-ci.org/ClarkAllen1556/resume_site)
 
-# vue-resume_site
+# [The Allen C](http://theallenc.surge.sh/#/)
 
 ## Project setup
 ```
