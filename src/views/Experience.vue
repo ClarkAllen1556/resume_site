@@ -1,7 +1,7 @@
 <template>
   <div class="experience">
     <b-row>
-      <b-col sm="8">
+      <b-col>
         <InfoCard :title="$t('view.exp.title')">
           <Resume />
         </InfoCard>
