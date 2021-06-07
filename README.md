@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/ClarkAllen1556/resume_site.svg?branch=master)](https://travis-ci.com/ClarkAllen1556/resume_site)
 
-# [The Allen C](http://theallenc.surge.sh/#/)
+# [The Allen C](http://www.urbanlife.me)
 
 ## Project setup
 ```
