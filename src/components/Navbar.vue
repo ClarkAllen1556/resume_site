@@ -5,7 +5,7 @@
         <img
           class="d-inline-block align-middle"
           :src="require('../assets/logo.png')"
-          style="height: 40px; width: 40px"
+          style="height: 4rem; width: 4rem"
           loading="lazy"
         />
         {{ $t("label.title") }}
@@ -58,5 +58,6 @@
     border-color: #586e75;
     border-left: 1px solid;
     border-right: 1px solid;
+    font-size: 1rem;
   }
 </style>
