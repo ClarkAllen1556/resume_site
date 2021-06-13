@@ -86,7 +86,7 @@
             department's small independent IT division. Due do Facilities
             Operations' unique needs, we, FOMIT, were a separate division from
             campus OIT. We were tasked with managing various forms of equipment,
-            IT hardware/software, task, and inventory databases. /p>
+            IT hardware/software, task, and inventory databases.
           </p>
         </div>
       </div>
