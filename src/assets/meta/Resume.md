@@ -2,6 +2,18 @@
 h2 {
   text-decoration: underline;
 }
+
+section {
+  font-size: 1rem;
+}
+
+section > h2 {
+  font-size: 1.25rem;
+}
+
+section > h3 {
+  font-size: 1.25rem;
+}
 </style>
 
 ## Work History
