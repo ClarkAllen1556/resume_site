@@ -8,7 +8,9 @@
           style="height: 4rem; width: 4rem"
           loading="lazy"
         />
-        {{ $t("label.title") }}
+        <div class="nav-title">
+          {{ $t("label.title") }}
+        </div>
       </b-navbar-brand>
       <b-collapse id="collapse-nav" is-nav>
         <b-navbar-nav class="ml-auto">
@@ -60,4 +62,10 @@
     border-right: 1px solid;
     font-size: 1rem;
   }
+
+  @media (max-width: 400px) {
+    .nav-title {
+      display: none;
+    }
+  } ;
 </style>
