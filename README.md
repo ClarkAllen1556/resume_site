@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/ClarkAllen1556/resume_site.svg?branch=master)](https://travis-ci.com/ClarkAllen1556/resume_site)
-
 # [The Allen C](https://www.urbanlife.me)
 
 ## Project setup
@@ -19,3 +17,5 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Project is being build via a private Jenkins server hosted on a Raspberry Pi.
